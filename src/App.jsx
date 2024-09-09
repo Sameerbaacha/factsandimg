@@ -65,7 +65,7 @@ function App() {
             <p className='font-medium text-2xl text-wrap txt'>{facts.fact}</p>
             <div className="mt-8 flex justify-center" bis_skin_checked={1}>
               <button onClick={() => { setnext(next + 1) }} className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
+                New Fact
               </button>
             </div>
           </div>
